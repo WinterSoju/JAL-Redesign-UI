@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.6326697e.css",
-    "main.js": "/static/js/main.70706e37.js",
-    "static/media/heropic.jpg": "/static/media/heropic.7048fe995d61e29a2ade.jpg",
-    "static/media/Logo.png": "/static/media/Logo.baa19737f1efa217ae40.png",
-    "static/media/ig.png": "/static/media/ig.e719d8b29f452a16302d.png",
-    "static/media/x.png": "/static/media/x.d81b995da2e1d8734e45.png",
-    "static/media/yt.png": "/static/media/yt.bc069a2b5e1ecdb5e06e.png",
-    "index.html": "/index.html",
-    "main.6326697e.css.map": "/static/css/main.6326697e.css.map",
-    "main.70706e37.js.map": "/static/js/main.70706e37.js.map"
+    "main.css": "/JAL-Redesign-UI/static/css/main.6326697e.css",
+    "main.js": "/JAL-Redesign-UI/static/js/main.8fa34ad1.js",
+    "static/media/heropic.jpg": "/JAL-Redesign-UI/static/media/heropic.7048fe995d61e29a2ade.jpg",
+    "static/media/Logo.png": "/JAL-Redesign-UI/static/media/Logo.baa19737f1efa217ae40.png",
+    "static/media/ig.png": "/JAL-Redesign-UI/static/media/ig.e719d8b29f452a16302d.png",
+    "static/media/x.png": "/JAL-Redesign-UI/static/media/x.d81b995da2e1d8734e45.png",
+    "static/media/yt.png": "/JAL-Redesign-UI/static/media/yt.bc069a2b5e1ecdb5e06e.png",
+    "index.html": "/JAL-Redesign-UI/index.html",
+    "main.6326697e.css.map": "/JAL-Redesign-UI/static/css/main.6326697e.css.map",
+    "main.8fa34ad1.js.map": "/JAL-Redesign-UI/static/js/main.8fa34ad1.js.map"
   },
   "entrypoints": [
     "static/css/main.6326697e.css",
-    "static/js/main.70706e37.js"
+    "static/js/main.8fa34ad1.js"
   ]
 }
