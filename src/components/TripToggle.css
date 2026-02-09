@@ -1,0 +1,21 @@
+.MuiToggleButton-root.custom-toggle {
+  background-color: rgba(255, 255, 255, 0);
+  font-family: 'Exo', sans-serif;
+  color: #ff000051;
+  font-weight: bold;
+  padding: 8px 20px;
+  transition: all 0.5s ease;
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  
+}
+
+.custom-toggle.Mui-selected {
+  border: thick solid #0a2a4000;
+  border-bottom-color: #ff0000; 
+  color: #ff0000 !important;
+  background-color: #00000000 !important;
+}  
+

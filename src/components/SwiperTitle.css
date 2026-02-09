@@ -1,0 +1,10 @@
+.swiper-title{
+    color: #000000df;
+    font-size: 30px;
+    font-weight: 100;
+    padding-left: 36px;
+    font-family: 'Roboto', sans-serif;
+    /* background: linear-gradient(180deg,rgba(199, 153, 178, 1) 23%, rgba(255, 255, 255, 1) 100%); */    
+    text-align: center;
+    padding-top: 5rem;
+}

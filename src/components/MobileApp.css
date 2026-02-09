@@ -1,0 +1,43 @@
+.mobile-app-container{
+    position: relative;
+    background-color: rgb(253, 245, 245);
+    width: 100%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+}
+
+.mobile-app-header{
+    text-align: center;
+    color: #000000;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mobile-app-buttons{
+    gap: 3px;
+    display: flex;
+    margin-top: 1rem;
+}
+
+.mobile-app-image{
+    display: flex;
+    width: 15rem;
+    margin: auto;
+}
+
+.mobile-app-content-row {
+  display: flex;
+  align-items: center;
+  gap: 24px; /* space between image and text */
+  flex-direction: row-reverse;
+  margin-right: 13rem;
+}
+
+
+.mobile-app-text {
+  flex: 1;
+  margin-left: 10rem;
+}

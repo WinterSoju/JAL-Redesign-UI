@@ -1,0 +1,69 @@
+import React, {useEffect, useState} from 'react'
+import { Button } from './Button';
+import { Link } from 'react-router-dom'
+import './Navbar.css'
+
+import logo from '../assets/Logo.png';
+
+function Navbar() {
+    const [click, setClick] = useState(false);
+    const [button, setButton] = useState(true);
+  
+    const handleClick = () => setClick(!click);
+    const closeMobileMenu = () => setClick(false);
+  
+    const showButton = () => {
+      if (window.innerWidth <= 960) {
+        setButton(false);
+      } else {
+        setButton(true);
+      }
+    };
+  
+    useEffect(() => {
+      showButton();
+    }, []);
+  
+    window.addEventListener('resize', showButton);
+    
+    return  (
+        <>
+            <nav className="navBar">
+                <div className="navbar-container">
+                    <Link to="/" className="navbar-logo">
+                    <img src={logo} alt="Logo" className="navbar-logo-img" />
+                    JAPAN AIRLINES   
+                    </Link>
+                    <div className="menu-icon" onClick={handleClick}>
+                        <i className= {click ? 'fas fa-times' : 'fas fa-bars'} />
+                    </div>
+                    <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                                Our Destinations
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                                Book a Flight
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                                Discover Japan
+                            </Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                                Mileage Club
+                            </Link>
+                        </li>
+                    </ul>
+                    {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+                </div>
+            </nav>
+        </>
+    )
+}
+
+export default Navbar
